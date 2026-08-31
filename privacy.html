@@ -43,6 +43,11 @@
     <tr><td class="scope">spreadsheets</td><td>Create and edit Google Sheets.</td><td>To produce a spreadsheet when you ask for one.</td></tr>
     <tr><td class="scope">presentations</td><td>Create and edit Google Slides.</td><td>To produce a slide deck when you ask for one.</td></tr>
     <tr>
+      <td class="scope">gmail.readonly</td>
+      <td>Read the messages in your mailbox. It does <strong>not</strong> permit deleting, sending, or modifying anything.</td>
+      <td>So you can ask questions about your own email — "what did the school send about the trip?"</td>
+    </tr>
+    <tr>
       <td class="scope">gmail.send</td>
       <td>Send email as you. It does <strong>not</strong> grant the ability to read, search or list your mailbox.</td>
       <td>To send a document or message on your behalf when you explicitly ask.</td>
@@ -59,7 +64,7 @@
   <h3>What this application never does</h3>
   <ul>
     <li>It does not read, index or search the existing contents of your Google Drive.</li>
-    <li>It does not read, search, list or download the contents of your mailbox. The <span class="scope">gmail.send</span> scope permits sending only.</li>
+    <li>It does not delete your email, alter labels, or modify your mailbox in any way. Read access is read-only.</li>
     <li>It does not access Google Contacts, Google Photos, or any Google service beyond those listed above.</li>
     <li>It does not transfer Google user data to any third party.</li>
     <li>It does not sell Google user data, or use it for advertising.</li>
