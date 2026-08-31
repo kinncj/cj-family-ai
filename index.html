@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home · CJ Family AI</title>
+<meta name="description" content="A private, self-hosted AI assistant run on family-owned hardware.">
+<link rel="icon" href="assets/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+  <img src="assets/logo.png" alt="CJ Family AI crest">
+  <div>
+    <h1>CJ Family AI</h1>
+    <p>A private, self-hosted AI assistant for one household.</p>
+  </div>
+</header>
+<nav>
+  <a href="./">Home</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+  <a href="https://github.com/kinncj/cj-family-ai">Source</a>
+</nav>
+<main>
+<p class="lede">CJ Family AI is a self-hosted AI assistant that runs entirely on hardware in our home. It is used by the members of one household — two adults and two children — and is not offered to anyone else.</p>
+
+<h2>What it does</h2>
+<p>It is a chat assistant, similar in shape to commercial products, but the models run locally and the conversations never leave our own machines. Household members use it to:</p>
+<ul>
+  <li>Ask questions and hold ordinary conversations with a locally-run language model</li>
+  <li>Search the web and get answers with citations</li>
+  <li>Ask questions about documents they upload</li>
+  <li>Generate images</li>
+  <li><strong>Create Google Docs, Sheets and Slides</strong> in their own Google Drive, on request</li>
+</ul>
+
+<h2>Why it asks for Google access</h2>
+<p>The last item is the only reason this application requests access to Google account data. When a household member asks it to "make a spreadsheet of the household budget" or "turn these notes into a slide deck", the assistant creates that file in <em>that person's own</em> Google Drive using the Google Drive, Docs, Sheets and Slides APIs.</p>
+
+<div class="card">
+  <h3>Each person connects their own Google account</h3>
+  <p>Authorisation is per person. A document created for one household member is created in their Drive, under their account, and is not visible to the others through this application. Nobody is required to connect a Google account at all — the assistant works without it, and simply produces downloadable files instead.</p>
+</div>
+
+<h2>Where it runs</h2>
+<p>On a single machine in our home, reachable only over a private network. There is no public sign-up, no hosted instance, and no way for someone outside the household to create an account.</p>
+
+<h2>Policies</h2>
+<p>Read the <a href="privacy.html">Privacy Policy</a> for exactly what Google data is accessed and how it is handled, and the <a href="terms.html">Terms of Service</a> for the terms of use.</p>
+</main>
+<footer>
+  <p>CJ Family AI — operated privately by Kinn Coelho Juliao for members of his household.
+  Not a commercial service and not open to public sign-up.</p>
+  <p>Contact: <a href="mailto:kinncj@gmail.com">kinncj@gmail.com</a></p>
+</footer>
+</div>
+</body>
+</html>
