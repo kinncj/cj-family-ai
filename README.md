@@ -18,6 +18,7 @@ access to Google Docs, Sheets and Slides.
 | `documents` | Create and edit Google Docs on request. |
 | `spreadsheets` | Create and edit Google Sheets on request. |
 | `presentations` | Create and edit Google Slides on request. |
+| `drive.readonly` | Read and list existing Drive files to answer questions about them. Cannot modify or delete. |
 | `gmail.readonly` | Read the user's own mailbox to answer questions about it. Cannot modify or delete. |
 | `gmail.send` | Send mail on request. |
 | `calendar.events` | Add or read calendar events on request. |

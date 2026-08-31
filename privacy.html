@@ -43,6 +43,11 @@
     <tr><td class="scope">spreadsheets</td><td>Create and edit Google Sheets.</td><td>To produce a spreadsheet when you ask for one.</td></tr>
     <tr><td class="scope">presentations</td><td>Create and edit Google Slides.</td><td>To produce a slide deck when you ask for one.</td></tr>
     <tr>
+      <td class="scope">drive.readonly</td>
+      <td>Read and list the files in your Google Drive. It does <strong>not</strong> permit deleting or modifying them.</td>
+      <td>So you can ask questions about documents you already have — "what did I write in the vacation notes?"</td>
+    </tr>
+    <tr>
       <td class="scope">gmail.readonly</td>
       <td>Read the messages in your mailbox. It does <strong>not</strong> permit deleting, sending, or modifying anything.</td>
       <td>So you can ask questions about your own email — "what did the school send about the trip?"</td>
@@ -63,7 +68,7 @@
 <div class="card">
   <h3>What this application never does</h3>
   <ul>
-    <li>It does not read, index or search the existing contents of your Google Drive.</li>
+    <li>It does not delete or modify files in your Drive that it did not create. Access to your existing files is read-only.</li>
     <li>It does not delete your email, alter labels, or modify your mailbox in any way. Read access is read-only.</li>
     <li>It does not access Google Contacts, Google Photos, or any Google service beyond those listed above.</li>
     <li>It does not transfer Google user data to any third party.</li>
