@@ -6,9 +6,9 @@ This repository exists to publish the application's home page, privacy policy an
 terms of service — the pages Google requires for an OAuth application that requests
 access to Google Docs, Sheets and Slides.
 
-- **Home:** https://kinncj.github.io/cj-family-ai/
-- **Privacy Policy:** https://kinncj.github.io/cj-family-ai/privacy.html
-- **Terms of Service:** https://kinncj.github.io/cj-family-ai/terms.html
+- **Home:** https://cj-family-ai.kinncj.ca/
+- **Privacy Policy:** https://cj-family-ai.kinncj.ca/privacy.html
+- **Terms of Service:** https://cj-family-ai.kinncj.ca/terms.html
 
 ## Scopes requested
 
