@@ -18,5 +18,7 @@ access to Google Docs, Sheets and Slides.
 | `documents` | Create and edit Google Docs on request. |
 | `spreadsheets` | Create and edit Google Sheets on request. |
 | `presentations` | Create and edit Google Slides on request. |
+| `gmail.send` | Send mail on request. Cannot read, search or list the mailbox. |
+| `calendar.events` | Add or read calendar events on request. |
 
 Not a commercial service. No public sign-up.
